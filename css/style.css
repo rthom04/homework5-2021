@@ -74,7 +74,8 @@ a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  position: -50px absolute;
+  position: absolute;
+  top: -50px;
 
   /* fix */
   /*Your code here*/
@@ -84,7 +85,10 @@ a:hover{
 a:focus{
   border-style: dashed;
   border-top: 2px;
-  border-bottom: 2px;
+  border-bottom: 2px; 
+  position:absolute;
+  top: 10px;
+  
   /* fix */
 }
 
@@ -94,6 +98,7 @@ a:focus{
   border-top-style: dashed;
   border-bottom-style: dsahed;
   border-width: 2px;
+ 
 }
 
 /*Req 5*/
