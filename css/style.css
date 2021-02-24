@@ -85,10 +85,9 @@ a:hover{
 a:focus{
   border-style: dashed;
   border-top: 2px;
-  border-bottom: 2px; 
+  border-bottom: 2px;
   position:absolute;
   top: 10px;
-  
   /* fix */
 }
 
@@ -98,14 +97,13 @@ a:focus{
   border-top-style: dashed;
   border-bottom-style: dsahed;
   border-width: 2px;
- 
 }
 
 /*Req 5*/
 .container{
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto auto auto;
   grid-row-gap: 20px;
   /*Your Code Here*/
 }
@@ -172,7 +170,7 @@ grid-column: 2 / span 2;
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  text-align: center;
+  vertical-align: middle;
   /*Your code here:*/
 }
 
