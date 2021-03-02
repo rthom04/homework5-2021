@@ -95,7 +95,7 @@ a:focus{
 /*Write selector/rule property to style all elements when in focus*/
 :focus{
   border-top-style: dashed;
-  border-bottom-style: dsahed;
+  border-bottom-style: dashed;
   border-width: 2px;
 }
 
