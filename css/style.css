@@ -172,7 +172,7 @@ grid-column: 2 / span 2;
   border: 10px solid black;
   padding: 30px;
   text-align: center;
-  vertical-align: middle;
+  align-self: center;
 
   /*Your code here:*/
 }
